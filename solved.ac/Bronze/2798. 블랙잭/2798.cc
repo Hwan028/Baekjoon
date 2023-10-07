@@ -1,5 +1,4 @@
 #include <iostream>
-#include <algorithm>
 using namespace std;
 
 int main()
@@ -12,9 +11,8 @@ int main()
     cin >> N >> M;
 
     for (int i = 0; i < N; i++)
-    {
         cin >> arr[i];
-    }
+    
     for (int i = 0; i < N - 2; i++)
     {
         for (int j = i + 1; j < N; j++)
