@@ -2,7 +2,7 @@
 #include <vector>
 using namespace std;
 
-int countChange(vector<vector<char>> board, int row, int col) {
+int countChange(const vector<vector<char>>& board, int row, int col) {
     int countB=0,countW=0;
     for(int i=row; i<row+8; i++) {
         for(int j=col; j<col+8; j++) {
